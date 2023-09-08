@@ -23,4 +23,15 @@
 
 #set heading(numbering: "1.1")
 
+// задание
 #include "lst/task.typ"
+
+#pagebreak()
+
+// результаты измерений
+#include "lst/calcs.typ"
+
+
+//
+
+//
