@@ -29,9 +29,7 @@
 #pagebreak()
 
 // результаты измерений
+#include "lst/data.typ"
+#pagebreak()
+//
 #include "lst/calcs.typ"
-
-
-//
-
-//
