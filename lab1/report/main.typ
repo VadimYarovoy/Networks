@@ -24,12 +24,16 @@
 #set heading(numbering: "1.1")
 
 // задание
-#include "lst/task.typ"
-
+#include "typ/task.typ"
 #pagebreak()
 
 // результаты измерений
-#include "lst/data.typ"
+#include "typ/data.typ"
 #pagebreak()
-//
-#include "lst/calcs.typ"
+
+// всякие вычисления
+#include "typ/calcs.typ"
+#pagebreak()
+
+// вывод
+#include "typ/conc.typ"
