@@ -41,7 +41,8 @@ def PLwf(d, fc):
     return - 20 * log10 (lm(fc) / (4 * pi * d))
 
 def lm(fc):
-    return fc / 299_792_458
+    return 299_792_458 / fc
+    # return fc / 299_792_458
 
 # 2G
 # нельзя использовать для микросот ???
@@ -66,8 +67,14 @@ def lm(fc):
 # print(20 - (PLwf(4.5, 5_000_000_000) + 3))
 # print(20 - (PLwf(2.5, 5_000_000_000) + 3))
 
-d = 5  # Расстояние в метрах
-fc = 5_000_000_000  # Частота в герцах (5 ГГц)
+# for i in range(1, 10):
+#     print(i, PLwf(i, 2_400))
 
-result = PLwf(d, fc)
-print(result)
+
+print(PLwf(0.001, 2_400))
+
+# d = 5  # Расстояние в метрах
+# fc = 5_000_000_000  # Частота в герцах (5 ГГц)
+
+# result = PLwf(d, fc)
+# print(result)
