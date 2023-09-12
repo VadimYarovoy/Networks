@@ -46,10 +46,10 @@ def lm(fc):
 
 # 2G
 # нельзя использовать для микросот ???
-# print("2G = ", g2(fc=800, hte=0.030, hre=0.010, d=0.358, Cm=3))
+print("2G = ", PLg2(fc=800, hte=30, hre=10, d=1, Cm=3))
 
 
-# 3G -OK
+# 3G - OK
 # print(- PLg3(n=0, d=155) + 12)
 # print(- PLg3(n=0, d=152) + 12)
 # print(- PLg3(n=0, d=158) + 12)
@@ -62,19 +62,8 @@ def lm(fc):
 # print(- PLg4(W=20, h=20, hBS=25, d3D=158, fc=2.6, hUT=22.5) + 12)
 
 
-# WiFi -?
+# WiFi - OK
 # print(20 - (PLwf(0.5, 5_000_000_000) + 3))
 # print(20 - (PLwf(4.5, 5_000_000_000) + 3))
 # print(20 - (PLwf(2.5, 5_000_000_000) + 3))
 
-# for i in range(1, 10):
-#     print(i, PLwf(i, 2_400))
-
-
-print(PLwf(0.001, 2_400))
-
-# d = 5  # Расстояние в метрах
-# fc = 5_000_000_000  # Частота в герцах (5 ГГц)
-
-# result = PLwf(d, fc)
-# print(result)
