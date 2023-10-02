@@ -9,7 +9,7 @@
   block: true,
   [$
     S_1(t) = A sin(2 pi f t), space
-    S_0(t) A sin(2 pi f t + pi)= - A sin(2 pi f t)
+    S_0(t) = A sin(2 pi f t + pi)= - A sin(2 pi f t)
   $]
 )
 
