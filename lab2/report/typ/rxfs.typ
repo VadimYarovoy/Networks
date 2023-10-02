@@ -10,12 +10,40 @@
   $]
 )
 
-где:
+Где:
 
 #math.equation(
   block: true,
   [$
     x(t) = s (beta_i, t) + n(t)
+  $]
+)
+
+Зная что шум у нас отсутствует:
+
+#math.equation(
+  block: true,
+  [$
+    x(t) = s (beta_i, t)
+  $]
+)
+
+Посмотрим как изменится формула:
+
+#math.equation(
+  block: true,
+  [$
+    max_i [ integral_0^(T_a) [s (beta_i, t)]^2 d t - 1/2 integral_0^(T_a) [s (beta_i, t)]^2 d t] \
+    max_i [ 1/2 integral_0^(T_a) [s (beta_i, t)]^2 d t]
+  $]
+)
+
+Также можем убрать $1/2$ так как это не будет влиять на результат, таким образом формула будет иметь вид:
+
+#math.equation(
+  block: true,
+  [$
+    max_i [integral_0^(T_a) [s (beta_i, t)]^2 d t]
   $]
 )
 
@@ -35,7 +63,7 @@
 символ 1. Система синхронизации поддерживает согласованность между передатчиком и приемником.
 
 #figure(
-  image("../pics/rx.png", width: 100%),
+  image("../pics/rx.png", width: 90%),
   caption: [
     Приемник
   ],
