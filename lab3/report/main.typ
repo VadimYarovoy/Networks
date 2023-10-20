@@ -47,6 +47,8 @@
 
 #set heading(numbering: "1.1")
 
+// Задание и цель
+#include "typ/task.typ"
 
 = Основная часть
 #include "typ/schema.typ"
@@ -55,3 +57,7 @@
 #include "typ/channel.typ"
 #include "typ/rx.typ"
 #include "typ/ber.typ"
+#include "typ/error_rate.typ"
+
+// Задание и цель
+#include "typ/conc.typ"
