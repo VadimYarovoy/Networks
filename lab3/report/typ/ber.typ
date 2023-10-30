@@ -12,6 +12,12 @@ BER сравниваются переданная и принятая после
   ]
 )
 
+Настройка:
+
+#figure(
+  image("../pics/more/5", width: 50%),
+)
 
 
-// #pagebreak()
+
+#pagebreak()

@@ -3,6 +3,22 @@
 Для автоматизации эксперимента воспользуемся
 инструментом *bertool*, входящим в состав *MATLAB*.
 
+#table(
+  columns: 2,
+  stroke: none,
+  [#image("../pics/more/6", width: 100%)],
+  [#image("../pics/more/7", width: 100%)]
+)
+
+Построим сначала теоретическую зависимость:
+
+#figure(
+  image("../pics/more/fffff.png", width: 80%),
+)
+
+#pagebreak()
+Нанесем практически полученные значения на наш график:
+
 #figure(
   image("../pics/finally2.svg", width: 80%),
 )
