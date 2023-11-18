@@ -1,7 +1,7 @@
 #import "template.typ": *
 
 #show: project.with(
-  type: "Самостоятельная работа №4",
+  type: "Самостоятельная работа №5",
   // name: "чтото",
   subject: "«Сети и телекоммуникации»",
   authors: (
@@ -13,7 +13,7 @@
 )
 
 // #show: project.with(
-//   type: "Самостоятельная работа №4",
+//   type: "Самостоятельная работа №5",
 //   // name: "чтото",
 //   subject: "«Сети и телекоммуникации»",
 //   authors: (
@@ -25,7 +25,7 @@
 // )
 
 // #show: project.with(
-//   type: "Практическая работа №4",
+//   type: "Практическая работа №5",
 //   // name: "чтото",
 //   subject: "«Сети и телекоммуникации»",
 //   authors: (
@@ -37,7 +37,7 @@
 // )
 
 // #show: project.with(
-//   type: "Практическая работа №4",
+//   type: "Практическая работа №5",
 //   // name: "чтото",
 //   subject: "«Сети и телекоммуникации»",
 //   authors: (
@@ -62,7 +62,6 @@
 #include "typ/task.typ"
 
 = Основная часть
-#include "typ/calculations.typ"
-#include "typ/proccesing.typ"
-
+#include "typ/nerr.typ"
+#include "typ/gilbert.typ"
 #include "typ/conc.typ"
